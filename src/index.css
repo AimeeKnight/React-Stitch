@@ -1,0 +1,25 @@
+:root {
+  --main-bg-color: #f3f3f3;
+  --main-txt-color: #333;
+  --button-blue: #0069ed;
+}
+
+button {
+  background: var(--button-blue);
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  margin: 0;
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:active {
+  transform: scale(0.99);
+}
